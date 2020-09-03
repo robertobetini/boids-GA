@@ -3,7 +3,9 @@ Boid simulation with genetic algorithm. The concecpt of boid was first developed
 Each boid has a perception radius and is being affected by the following steering forces:
 
 • Cohesion: each boid will try to get as near as possible of its fellows within the perception radius.
+
 • Separtaion: each boid will try to get as far as possible of its fellows within the perception radius.
+
 • Alignment: each boid will try to follow the direction of its fellows within the perception radius.
 
 Combining these 3 forces can produce creative and unexpected behaviors patterns, and you can change the magnitude of each one by changind the sliders' values.
